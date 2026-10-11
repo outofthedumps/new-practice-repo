@@ -80,3 +80,73 @@ p, ul, ol{
 }
 
 
+section h2 + p{
+    text-indent: 1.25rem;
+}
+
+ul, ol{
+    padding-left: 2.4rem;
+}
+
+li{
+    line-height: 1.7;
+}
+
+ul{
+    list-style: square;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+
+li::marker{
+    color: #a66;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    outline: none;
+}
+
+a:link{
+    color: #864444;
+}
+
+a:visited{
+    color: #704b70;
+}
+
+a:focus, a:hover{
+    color: #542828;
+    background-color: #f3e3e3;
+    text-decoration: none;
+}
+
+
+a:focus{
+    box-shadow: 0 0 0 2px #a66;
+}
+
+a:active{
+    color: #fff;
+    background-color: #713636;
+    text-decoration: none;
+}
+
+a[href^="https://"]::after, 
+a[href^="http://"]::after{
+    content: "";
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    margin-left: 0.25em;
+    background: url("./external-link-52.png") center / contain no-repeat;
+}
+
+
+
+
+
