@@ -1,4 +1,4 @@
-/* remove thic comment to add @import font or CSS variables at the top of this file */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -42,3 +42,12 @@ header, footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+*{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+* > h1, 
+* > h2{
+    font-family: "slab serif";
+}
