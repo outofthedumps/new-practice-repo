@@ -42,12 +42,15 @@ header, footer {
 }
 
 /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
-*{
-    font-family: sans-serif;
-    font-size: 1rem;
+html{
+    font-size: 10px;
 }
 
-* > h1, 
-* > h2{
-    font-family: "slab serif";
+body{
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    word-spacing: 0.04em;
+    color: #292323;
 }
